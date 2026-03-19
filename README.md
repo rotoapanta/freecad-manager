@@ -14,7 +14,7 @@
 
 <p align="right"><strong>Español</strong> | <a href="README.md">English</a></p>
 
-## 🧾 Description
+## Description
 
 **FreeCAD Manager** is a lightweight Bash utility that allows you to install, manage, and uninstall **FreeCAD AppImage** on Linux systems as if it were a native desktop application.
 
@@ -22,7 +22,7 @@ It integrates FreeCAD into your system by creating launchers, menu entries, and 
 
 ---
 
-## 🚀 Features
+## Features
 
 * Interactive installation menu
 * Install from:
@@ -43,7 +43,7 @@ It integrates FreeCAD into your system by creating launchers, menu entries, and 
 
 ---
 
-## 📦 Installation Structure
+## Installation Structure
 
 FreeCAD is installed in:
 
@@ -61,7 +61,7 @@ The script also creates:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * Linux (Ubuntu recommended)
 * Bash
@@ -70,7 +70,7 @@ The script also creates:
 
 ---
 
-## 📥 Installation
+## nstallation
 
 ```bash
 git clone https://github.com/TU_USUARIO/freecad-manager.git
@@ -81,7 +81,7 @@ chmod +x freecad-manager.sh
 
 ---
 
-## 🧠 Usage
+## Usage
 
 The script provides an interactive menu:
 
@@ -94,7 +94,7 @@ The script provides an interactive menu:
 
 ---
 
-## ▶️ Run FreeCAD
+## Run FreeCAD
 
 From terminal:
 
@@ -106,7 +106,7 @@ Or open it from your system applications menu.
 
 ---
 
-## 🧹 Uninstall
+## Uninstall
 
 Run the script and select:
 
@@ -116,7 +116,7 @@ Option 3 → Uninstall
 
 ---
 
-## 🔄 Update FreeCAD
+## Update FreeCAD
 
 Run the script again and install a new version.
 
@@ -124,7 +124,7 @@ The previous AppImage will be automatically replaced.
 
 ---
 
-## 📌 Why AppImage instead of APT?
+## Why AppImage instead of APT?
 
 | Method   | Version | Recommended |
 | -------- | ------- | ----------- |
@@ -134,7 +134,7 @@ The previous AppImage will be automatically replaced.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 freecad-manager/
@@ -157,7 +157,7 @@ This project uses **ShellCheck** via GitHub Actions to ensure script quality.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -170,7 +170,7 @@ See `CONTRIBUTING.md` for more details.
 
 ---
 
-## 🔒 Security
+## Security
 
 If you discover a vulnerability, please report it privately.
 
@@ -178,13 +178,13 @@ See `SECURITY.md`.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Roberto Toapanta**
 Electrical Engineer
@@ -192,7 +192,7 @@ Embedded Systems | IoT | Energy
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 * Auto-detect AppImages in Downloads
 * Version selector from GitHub Releases
@@ -202,6 +202,6 @@ Embedded Systems | IoT | Energy
 
 ---
 
-## ⭐ Support
+## Support
 
 If you find this project useful, consider giving it a star ⭐
