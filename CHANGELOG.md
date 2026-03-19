@@ -7,6 +7,36 @@ https://keepachangelog.com/en/1.0.0/
 
 ---
 
+## [1.1.0] - 2026-03-19
+
+### Added
+
+* Non-interactive mode using CLI options:
+  * `--install`
+  * `--remove`
+  * `--update`
+* Support for installation from:
+  * Local file (`--from-file`)
+  * Remote URL (`--from-url`)
+* Logging system to track script operations
+* Update mechanism to replace existing AppImage
+* Help command (`--help`)
+* Version command (`--version`)
+
+### Changed
+
+* Improved execution flow to support both interactive and non-interactive modes
+* Refactored installation process for reuse across install/update
+* Updated documentation in README
+
+### Notes
+
+* Fully backward compatible with interactive mode
+* Logs stored in:
+  `~/.local/state/freecad-manager/freecad-manager.log`
+
+---
+
 ## [1.0.0] - 2026-03-19
 
 ### Added
@@ -37,6 +67,5 @@ https://keepachangelog.com/en/1.0.0/
 
 * Auto-detection of AppImages in Downloads folder
 * Version selector from GitHub Releases
-* Non-interactive mode (`--install`, `--remove`)
-* Logging system
-* Update mechanism
+* Integrity check for downloaded AppImage
+* Silent mode (no output)

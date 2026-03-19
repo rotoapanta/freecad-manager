@@ -16,7 +16,7 @@
 
 ## Descripción
 
-**FreeCAD Manager** es un script en Bash que permite instalar, gestionar y desinstalar **FreeCAD AppImage** en sistemas Linux, integrándolo como si fuera una aplicación nativa del sistema.
+**FreeCAD Manager** es una herramienta en Bash que permite instalar, gestionar, actualizar y desinstalar **FreeCAD AppImage** en sistemas Linux, integrándolo como una aplicación nativa del sistema.
 
 El script automatiza todo el proceso: descarga o copia del AppImage, creación de accesos, integración en el menú de aplicaciones y ejecución desde terminal, sin necesidad de privilegios de superusuario.
 
@@ -25,19 +25,19 @@ El script automatiza todo el proceso: descarga o copia del AppImage, creación d
 ## Características
 
 * Menú interactivo fácil de usar
+* Modo no interactivo mediante CLI
 * Instalación desde:
-
   * AppImage local
   * URL remota
 * Creación automática de:
-
   * Comando CLI (`freecad`)
   * Acceso en el menú (.desktop)
   * Ícono de la aplicación
+* Sistema de logs
+* Actualización del AppImage
 * Desinstalación limpia
 * Instalación en espacio de usuario (`~/.local`)
 * Compatible con:
-
   * Ubuntu 22.04
   * Ubuntu 24.04
 
@@ -59,6 +59,11 @@ Y se crean los siguientes accesos:
 ~/.local/share/icons/hicolor/256x256/apps/freecad.png
 ```
 
+Logs del sistema:
+
+```bash
+~/.local/state/freecad-manager/freecad-manager.log
+```
 ---
 
 ## Requisitos
@@ -73,7 +78,7 @@ Y se crean los siguientes accesos:
 ## Instalación
 
 ```bash
-git clone https://github.com/TU_USUARIO/freecad-manager.git
+git clone https://github.com/rotoapanta/freecad-manager.git
 cd freecad-manager
 chmod +x freecad-manager.sh
 ./freecad-manager.sh
@@ -83,7 +88,9 @@ chmod +x freecad-manager.sh
 
 ## Uso
 
-El script presenta un menú interactivo:
+Modo interactivo
+
+El script presenta un menú:
 
 ```text
 1) Instalar desde AppImage local
@@ -92,6 +99,43 @@ El script presenta un menú interactivo:
 4) Salir
 ```
 
+Modo no interactivo (CLI)
+
+Instalar desde archivo local:
+
+```bash
+./freecad-manager.sh --install --from-file ~/Descargas/FreeCAD.AppImage
+```
+
+Instalar desde URL:
+
+```bash
+./freecad-manager.sh --install --from-url "https://servidor/ruta/FreeCAD.AppImage"
+```
+
+Actualizar:
+
+```bash
+./freecad-manager.sh --update --from-file ~/Descargas/FreeCAD_nueva.AppImage
+```
+
+Desinstalar:
+
+```bash
+./freecad-manager.sh --remove
+```
+
+Ver ayuda:
+
+```bash
+./freecad-manager.sh --help
+```
+
+Ver versión:
+
+```bash
+./freecad-manager.sh --version
+```
 ---
 
 ## Ejecutar FreeCAD
@@ -108,19 +152,17 @@ O desde el menú de aplicaciones del sistema.
 
 ## Desinstalar
 
-Ejecuta el script y selecciona:
-
-```text
-Opción 3 → Desinstalar
+```bash
+./freecad-manager.sh --remove
 ```
 
 ---
 
 ## Actualizar FreeCAD
 
-Ejecuta nuevamente el script y selecciona instalar.
-
-El AppImage existente será reemplazado automáticamente.
+```bash
+./freecad-manager.sh --update --from-file archivo.AppImage
+```
 
 ---
 
