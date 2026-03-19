@@ -12,7 +12,7 @@
 
 ---
 
-<p align="right"><strong>Español</strong> | <a href="README.md">Engligh</a></p>
+<p align="right"><strong>Español</strong> | <a href="README.md">English</a></p>
 
 ## Descripción
 
