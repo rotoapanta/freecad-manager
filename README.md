@@ -12,6 +12,8 @@
 
 ---
 
+<p align="right"><strong>Español</strong> | <a href="README.md">English</a></p>
+
 ## 🧾 Description
 
 **FreeCAD Manager** is a lightweight Bash utility that allows you to install, manage, and uninstall **FreeCAD AppImage** on Linux systems as if it were a native desktop application.
