@@ -10,7 +10,7 @@
 
 ---
 
-<p align="right"><strong>English</strong> | <a href="README.es.md">Español</a></p>
+<p align="right"><strong>[EN]</strong> | <a href="README.es.md">[ES]</a></p>
 
 # <p align="center">FreeCAD Manager (Linux)</p>
 
