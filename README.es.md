@@ -1,4 +1,4 @@
-# ⚙️ FreeCAD Manager (Linux)
+# FreeCAD Manager (Linux)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)
@@ -12,7 +12,9 @@
 
 ---
 
-## 🧾 Descripción
+<p align="right"><strong>Español</strong> | <a href="README.md">Engligh</a></p>
+
+## Descripción
 
 **FreeCAD Manager** es un script en Bash que permite instalar, gestionar y desinstalar **FreeCAD AppImage** en sistemas Linux, integrándolo como si fuera una aplicación nativa del sistema.
 
@@ -20,7 +22,7 @@ El script automatiza todo el proceso: descarga o copia del AppImage, creación d
 
 ---
 
-## 🚀 Características
+## Características
 
 * Menú interactivo fácil de usar
 * Instalación desde:
@@ -41,7 +43,7 @@ El script automatiza todo el proceso: descarga o copia del AppImage, creación d
 
 ---
 
-## 📦 Estructura de instalación
+## Estructura de instalación
 
 FreeCAD se instala en:
 
@@ -59,7 +61,7 @@ Y se crean los siguientes accesos:
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 * Linux (Ubuntu recomendado)
 * Bash
@@ -68,7 +70,7 @@ Y se crean los siguientes accesos:
 
 ---
 
-## 📥 Instalación
+## Instalación
 
 ```bash
 git clone https://github.com/TU_USUARIO/freecad-manager.git
@@ -79,7 +81,7 @@ chmod +x freecad-manager.sh
 
 ---
 
-## 🧠 Uso
+## Uso
 
 El script presenta un menú interactivo:
 
@@ -92,7 +94,7 @@ El script presenta un menú interactivo:
 
 ---
 
-## ▶️ Ejecutar FreeCAD
+## Ejecutar FreeCAD
 
 Desde terminal:
 
@@ -104,7 +106,7 @@ O desde el menú de aplicaciones del sistema.
 
 ---
 
-## 🧹 Desinstalar
+## Desinstalar
 
 Ejecuta el script y selecciona:
 
@@ -114,7 +116,7 @@ Opción 3 → Desinstalar
 
 ---
 
-## 🔄 Actualizar FreeCAD
+## Actualizar FreeCAD
 
 Ejecuta nuevamente el script y selecciona instalar.
 
@@ -122,7 +124,7 @@ El AppImage existente será reemplazado automáticamente.
 
 ---
 
-## 📌 ¿Por qué usar AppImage en lugar de APT?
+## ¿Por qué usar AppImage en lugar de APT?
 
 | Método   | Versión        | Recomendado |
 | -------- | -------------- | ----------- |
@@ -132,7 +134,7 @@ El AppImage existente será reemplazado automáticamente.
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```text
 freecad-manager/
@@ -141,21 +143,12 @@ freecad-manager/
 ├── LICENSE
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
-├── SECURITY.md
 ├── .github/
-│   └── workflows/
-│       └── shellcheck.yml
 ```
 
 ---
-
-## 🧪 Calidad de código
-
-Este proyecto utiliza **ShellCheck** mediante GitHub Actions para validar la calidad del script.
-
----
-
-## 🤝 Contribuciones
+ 
+## Contribuciones
 
 Las contribuciones son bienvenidas:
 
@@ -168,21 +161,13 @@ Consulta `CONTRIBUTING.md` para más detalles.
 
 ---
 
-## 🔒 Seguridad
-
-Si descubres una vulnerabilidad, repórtala de forma privada.
-
-Consulta `SECURITY.md`.
-
----
-
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Roberto Toapanta**
 Ingeniero Eléctrico
@@ -190,7 +175,7 @@ Sistemas Embebidos | IoT | Energía
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 * Detección automática de AppImages en Descargas
 * Selector de versiones desde GitHub Releases
@@ -200,6 +185,6 @@ Sistemas Embebidos | IoT | Energía
 
 ---
 
-## ⭐ Apoyo
+## Apoyo
 
 Si este proyecto te resulta útil, considera darle una estrella ⭐

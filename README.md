@@ -1,4 +1,4 @@
-# ⚙️ FreeCAD Manager (Linux)
+# FreeCAD Manager (Linux)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)
@@ -12,7 +12,7 @@
 
 ---
 
-<p align="right"><strong>Español</strong> | <a href="README.md">English</a></p>
+<p align="right"><strong>English</strong> | <a href="README.es.md">Español</a></p>
 
 ## Description
 
@@ -143,17 +143,8 @@ freecad-manager/
 ├── LICENSE
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
-├── SECURITY.md
 ├── .github/
-│   └── workflows/
-│       └── shellcheck.yml
 ```
-
----
-
-## 🧪 CI / Code Quality
-
-This project uses **ShellCheck** via GitHub Actions to ensure script quality.
 
 ---
 
@@ -167,14 +158,6 @@ Contributions are welcome!
 4. Submit a Pull Request
 
 See `CONTRIBUTING.md` for more details.
-
----
-
-## Security
-
-If you discover a vulnerability, please report it privately.
-
-See `SECURITY.md`.
 
 ---
 
