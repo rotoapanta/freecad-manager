@@ -1,5 +1,3 @@
-# FreeCAD Manager (Linux)
-
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-E95420?logo=ubuntu)
@@ -13,6 +11,8 @@
 ---
 
 <p align="right"><strong>Español</strong> | <a href="README.md">English</a></p>
+
+# <p align="center">FreeCAD Manager (Linux)</p>
 
 ## Descripción
 
@@ -143,7 +143,7 @@ freecad-manager/
 ├── LICENSE
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
-├── .github/
+└── .github/
 ```
 
 ---
