@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to **FreeCAD Manager** 🚀
+Thank you for your interest in contributing to **FreeCAD Manager**
 
 ---
 
@@ -50,7 +50,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📏 Code Style
+## Code Style
 
 * Use `set -euo pipefail`
 * Use descriptive variable names
@@ -59,7 +59,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Before submitting a PR:
 
@@ -70,25 +70,25 @@ Before submitting a PR:
 
 ---
 
-## 🔒 Security
+## Security
 
 Do not introduce unsafe commands or behaviors.
 If unsure, open an issue before implementing.
 
 ---
 
-## 💡 Feature Requests
+## Feature Requests
 
 You can suggest improvements by opening an issue.
 
 ---
 
-## 📣 Questions
+## Questions
 
 If you have questions, open an issue and describe your problem clearly.
 
 ---
 
-## 🙌 Thanks
+## Thanks
 
 Your contributions help improve this project and make it more useful for the community.
