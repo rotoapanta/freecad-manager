@@ -4,9 +4,9 @@
 ![Shell](https://img.shields.io/badge/script-bash-121011?logo=gnu-bash)
 ![FreeCAD](https://img.shields.io/badge/FreeCAD-AppImage-blue)
 ![Status](https://img.shields.io/badge/status-stable-brightgreen)
-![Issues](https://img.shields.io/github/issues/TU_USUARIO/freecad-manager)
-![Last Commit](https://img.shields.io/github/last-commit/TU_USUARIO/freecad-manager)
-![Repo Size](https://img.shields.io/github/repo-size/TU_USUARIO/freecad-manager)
+![Issues](https://img.shields.io/github/issues/rotoapanta/freecad-manager)
+![Last Commit](https://img.shields.io/github/last-commit/rotoapanta/freecad-manager)
+![Repo Size](https://img.shields.io/github/repo-size/rotoapanta/freecad-manager)
 
 ---
 
