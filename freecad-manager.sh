@@ -1,4 +1,51 @@
 #!/usr/bin/env bash
+#
+# ==============================================================================
+#  FreeCAD Manager
+# ==============================================================================
+#  Descripción:
+#    Script en Bash para instalar, gestionar y desinstalar FreeCAD AppImage
+#    en sistemas Linux, integrándolo como una aplicación nativa del usuario.
+#
+#  Funcionalidades:
+#    - Instalación desde un AppImage local
+#    - Instalación descargando desde una URL
+#    - Creación de comando lanzador: freecad
+#    - Creación de acceso en el menú de aplicaciones
+#    - Extracción automática de ícono desde el AppImage
+#    - Desinstalación limpia
+#
+#  Ubicaciones usadas:
+#    - AppImage:   ~/.local/opt/freecad/FreeCAD.AppImage
+#    - Lanzador:   ~/.local/bin/freecad
+#    - Desktop:    ~/.local/share/applications/freecad.desktop
+#    - Ícono:      ~/.local/share/icons/hicolor/256x256/apps/freecad.png
+#
+#  Compatibilidad:
+#    - Ubuntu 22.04
+#    - Ubuntu 24.04
+#    - Otras distribuciones Linux compatibles con AppImage
+#
+#  Requisitos:
+#    - bash
+#    - wget o curl
+#    - chmod
+#    - cp
+#    - mkdir
+#    - find
+#    - mktemp
+#
+#  Autor:
+#    Roberto Toapanta
+#
+#  Licencia:
+#    MIT
+#
+#  Versión:
+#    1.0.0
+#
+# ==============================================================================
+
 set -euo pipefail
 
 APP_NAME="FreeCAD"
